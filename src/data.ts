@@ -54,6 +54,23 @@ export const skillsData: SkillCategory[] = [
 
 export const projectsData: Project[] = [
   {
+    title: "Imaginify",
+    category: "Full-Stack AI",
+    technologies: ["Next.js", "MongoDB", "Tailwind CSS", "Cloudinary AI", "Stripe", "TypeScript", "Clerk"],
+    description: [
+      "Built a full-stack AI SaaS image editor with features like restore, generative fill, object remove/recolor and background remove.",
+      "Integrated Cloudinary AI for transformations and Zod for schema validation.",
+      "Implemented Clerk authentication and Stripe powered credit system with secure webhooks.",
+      "Designed a responsive UI using Next.Js app router, Shadcn UI , and Tailwind CSS.",
+      "Used MongoDB for scalable storage of users, transactions, and image history.",
+    ],
+    links: {
+      github: "https://github.com/Shivanshu-Jha/Imaginify",
+      live: "https://imaginify-opal-kappa.vercel.app/",
+    },
+    highlighted: true,
+  },
+  {
     title: "PrepWise",
     category: "Full-Stack AI",
     technologies: ["Next.js", "Firebase", "Tailwind CSS", "Gemini API", "Vapi Voice Agent", "TypeScript"],
@@ -117,6 +134,19 @@ export const projectsData: Project[] = [
     },
     highlighted: false,
   },
+  {
+    title: "Awards",
+    category: "Frontend Utility",
+    technologies: ["React.js", "Tailwind CSS", "GSAP"],
+    description: [
+      "A high-performance, visually stunning landing page inspired by the Zentry website. This project showcases advanced frontend techniques, including complex GSAP scroll-triggered animations, a custom Bento Grid layout, and seamless video integration. Built with React and Tailwind CSS v4, it focuses on providing a triple-A gaming aesthetic with fluid user interactions.",
+    ],
+    links: {
+      github: "https://github.com/Shivanshu-Jha/awards",
+      live: "https://awards-puce.vercel.app/",
+    },
+    highlighted: true,
+  }
 ];
 
 export const educationData: Education[] = [
