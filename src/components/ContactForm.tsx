@@ -114,15 +114,15 @@ export default function ContactForm() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-12 gap-12 items-start translate-x-[30%]">
-
-          {/* Left Column: Coordinates details info card */}
-          <div className="md:col-span-5 space-y-6">
+        {/* Centered Box */}
+        <div className="grid place-items-center">
+          <div className="w-full md:w-5/12 space-y-6">
             <div className="bg-slate-900/30 border border-slate-800/80 rounded-2xl p-6 md:p-8 space-y-6">
               <h3 className="text-lg font-display font-bold text-white mb-2">
-                Conventions & Coordinates
+                Conventions & Contact Details
               </h3>
 
+              {/* Coordinates */}
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="p-2 bg-slate-950 rounded-lg border border-slate-800 shrink-0">
@@ -147,19 +147,9 @@ export default function ContactForm() {
                     </a>
                   </div>
                 </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="p-2 bg-slate-950 rounded-lg border border-slate-800 shrink-0">
-                    <MapPin className="w-4 h-4 text-teal-400" />
-                  </div>
-                  <div>
-                    <h4 className="text-xs font-mono text-slate-500 uppercase">CURRENT RESIDENCE</h4>
-                    <span className="text-sm text-slate-300 font-medium">{developerInfo.location}</span>
-                  </div>
-                </div>
               </div>
 
-              {/* Quick links footer */}
+              {/* Footer */}
               <div className="pt-6 border-t border-slate-800 flex items-center justify-between text-slate-400 text-xs font-mono">
                 <span>CONFERENCE LINKS</span>
                 <div className="flex gap-4">
@@ -172,12 +162,11 @@ export default function ContactForm() {
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
 
       </div>
     </section>
+
   );
 }

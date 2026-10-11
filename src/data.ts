@@ -146,6 +146,58 @@ export const projectsData: Project[] = [
       live: "https://awards-puce.vercel.app/",
     },
     highlighted: true,
+  },
+  {
+    title: "CoinPulse",
+    category: "Cryptocurrency Tracking",
+    technologies: ["Next.js", "Tailwind CSS", "Clerk", "Shadcn UI"],
+    description: [
+      "A cryptocurrency tracking web app built with Next.js that shows market data, trending coins, categories, price charts and a coin converter, powered by the CoinGecko API.",
+    ],
+    links: {
+      github: "https://github.com/Shivanshu-Jha/coinpulse",
+      live: "https://coinpulse-kappa-six.vercel.app",
+    },
+    highlighted: true,
+  },
+  {
+    title: "BitLinks",
+    category: "URL Shortener",
+    technologies: ["Next.js", "Tailwind CSS", "NextAuth", "MongoDB", "Node.js"],
+    description: [
+      "A fast, secure, and scalable URL shortening service built with the modern web stack. This application allows users to transform long, cumbersome links into neat, shareable URLs while providing tracking and secure user management.",
+    ],
+    links: {
+      github: "https://github.com/Shivanshu-Jha/linkShortener",
+      live: "https://link-shortener-gold.vercel.app",
+    },
+    highlighted: true,
+  },
+  {
+    title: "QuickCart",
+    category: "Ecommerce",
+    technologies: ["Next.js", "Tailwind CSS", "Clerk", "MongoDB"],
+    description: [
+      "An Ecommerce website which allows users to add to cart, place order and a special seller dashboard for selected user.",
+    ],
+    links: {
+      github: "https://github.com/Shivanshu-Jha/Ecommerce",
+      live: "https://quick-cartt-fpq0z0ayu-shivanshu-shekhar-jhas-projects.vercel.app",
+    },
+    highlighted: true,
+  },
+  {
+    title: "Get-Me-A-Chai",
+    category: "Crowd funding platform",
+    technologies: ["Next.js", "Tailwind CSS", "NextAuth", "MongoDB", "Razorpay"],
+    description: [
+      "A Crowd funding platform that allows users to contribute to the person with a message.",
+    ],
+    links: {
+      github: "https://github.com/Shivanshu-Jha/getMeAChai",
+      live: "https://get-me-a-chai-lovat-gamma.vercel.app",
+    },
+    highlighted: true,
   }
 ];
 
